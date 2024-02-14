@@ -1,0 +1,207 @@
+body {
+background-color:rgb(213, 149, 213);
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header, nav, main, footer {
+width: 100%;
+box-sizing: border-box;
+padding: 20px;
+background-position: center 10px;
+}
+
+#menu-principal{
+background-color:black;
+position: relative;top: -105px;
+color: black;
+padding: 15px;
+width: 100%;
+word-spacing: 8px;
+text-align: center;
+}
+ul,li{
+padding:0,0;
+margin: 2px,2px;
+display: inline-block;
+text-align: center;
+}
+#idiomas{
+position: relative;top: -160px;
+left: 90%;
+}
+#fondo{
+width: 100%;
+object-fit: cover;
+transform: rotate(0deg);
+position: relative;top: -100px;
+}
+#tit{
+color: white;
+text-align: center;
+}
+#tit2{
+position: relative;top: -150px;
+text-align: center;
+font-size: 40px;
+font-family: Helvetica;
+}
+
+.text{
+text-align: center;
+color: white; 
+}
+
+#audio{
+position: relative;top: -175px;
+right:-39%;
+    
+}
+#link_off{
+position: relative;top: -140px;
+text-align: center;
+font-size: 15px;
+left: 20%;
+}
+.fotos{
+/*background-color: green;*/
+display:flex;
+justify-content: center;
+align-items: center;
+position: relative;top: -100px;
+}
+
+.img1{
+width:25%;
+}
+.img2{
+width:22%;  
+}
+.img3{
+width:16.5%;
+}
+#pie1{
+font-size: 15px;
+}
+#pie2{
+font-size: 15px;
+}
+#pie3{
+font-size: 15px;
+}
+#Componentes{
+text-align: center;
+position:relative;top: -90px;
+}
+#comp1{
+font-size: 18px;
+text-align: center;
+position:relative;top: -80px;
+}
+.boton_enviar {
+font-size: 15px;
+padding: 10px;
+margin: 30px;
+position: relative;top: -60px;
+margin-left: 45%;
+}
+
+.video-gallery {
+display: flex;
+justify-content: space-around; 
+align-items: center; 
+flex-wrap: wrap; 
+position: relative;bottom:-80px;
+margin-left: 100px;
+}
+
+.video-item {
+width: calc(33.33% - 10px); 
+margin: 5px; 
+
+}
+iframe{
+  border-radius: 10px;
+}
+/* Estilos para la tabla */
+.taula{
+width: 100%;
+border-collapse: collapse;
+border: 2px solid #ddd;
+position: relative;top: -60px;
+}
+  /* Estilos para los encabezados de columna */
+.taula th {
+background-color: black;
+color: white;
+padding: 12px;
+text-align: left;
+}
+  
+/* Estilos para las celdas */
+.taula td {
+padding: 12px;
+}
+  /* Estilos para filas */
+.taula tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+/* Estilos al pasar el ratón sobre las filas */
+.taula tbody tr:hover {
+background-color: #ddd;
+}
+
+#mapa{  
+position: relative;bottom:-245px;
+height: calc(300px + 250px); /* Altura compensada */
+width: 100%;
+border-radius: 15px;
+}
+
+footer {
+background-color:black;
+color: #fff;
+text-align: center;
+padding: 20px;
+bottom: 0;
+width: 100%;
+position:relative;bottom: -300px;
+}
+.emoticonos{
+display: flex;
+margin-right: 2cm;
+justify-content: center; 
+align-items: center;
+padding: 40px;
+margin-left: 65px; 
+}
+#facebook{
+width: 65px;
+height: 65px;
+object-fit: cover;  
+}
+
+#whatsapp{
+width: 50px;
+height: 50px;
+object-fit: cover; 
+}
+
+#instagram{
+width: 65px;
+height: 65px;
+object-fit: cover; 
+}
+
+#twiter{
+width: 65px;
+height: 65px;
+object-fit: cover; 
+}
+
+#copy{
+text-align: center; 
+font-size: smaller;
+}
